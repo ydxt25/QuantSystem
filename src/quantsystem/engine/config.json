@@ -1,0 +1,13 @@
+{
+    // algorithm selector
+    "algorithm-type-name": "BasicTemplateAlgorithm",
+
+    // engine
+    "local": "true",
+    "livemode": "false",
+
+    // handlers
+    "messaging-handler": "QuantConnect.Messaging.Messaging",
+    "queue-handler": "QuantConnect.Queues.Queue",
+    "api-handler": "QuantConnect.Api.Api"
+}
